@@ -8,7 +8,7 @@ public class defaultCountingOutRhymer {
     private static final int RETURN = -1;
     private static final int EMPTY = -1;
     private static final int FULL_TOTAL = MAX_SIZE - 1;
-    private int[] NUMBERS = new int[MAX_SIZE];
+    private final int[] NUMBERS = new int[MAX_SIZE];
 
     public int total = EMPTY;
 
