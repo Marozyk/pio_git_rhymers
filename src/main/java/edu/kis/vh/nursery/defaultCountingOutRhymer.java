@@ -42,4 +42,7 @@ public class defaultCountingOutRhymer {
         return NUMBERS[total--];
     }
 
+    public static int getFullTotal() {
+        return FULL_TOTAL;
+    }
 }
